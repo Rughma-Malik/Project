@@ -1,0 +1,19 @@
+# --- Terraform ---
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+*.tfvars
+
+# --- Security ---
+mykey
+mykey.pub
+*.pem
+
+# --- AWS Installer Junk ---
+aws/
+awscliv2.zip
+
+# --- Ansible Generated Files ---
+ansible/inventory/hosts
+*.retry
