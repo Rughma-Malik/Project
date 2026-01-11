@@ -13,7 +13,3 @@ mykey.pub
 # --- AWS Installer Junk ---
 aws/
 awscliv2.zip
-
-# --- Ansible Generated Files ---
-ansible/inventory/hosts
-*.retry
